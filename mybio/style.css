@@ -1,0 +1,74 @@
+table,
+th,
+td {
+    border: 1px solid;
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: left;
+}
+
+header {
+    background-color: goldenrod;
+    text-align: center;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    background-color: powderblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 40% 0 40%
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h6 {
+    text-align: center;
+}
+
+form {
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0 40% 0 40%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: medium;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: right;
+}
