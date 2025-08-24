@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.playlist {
+    width: 400px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.playlist h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.song {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.song h4 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color:#333;
+}
+
+.song img {
+    width: 50%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.song img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: right;
+}
